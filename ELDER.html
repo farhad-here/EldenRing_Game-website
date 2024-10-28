@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/design.css">
+    <!-- shortcut icon -->
+    <link rel="shortcut icon" href="asset/icone/icon.png">
+    <!-- title -->
+    <title>Elder</title>
+    <!-- JS -->
+    <script src="./JS/brain.js"></script>
+    <!-- icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- AOS ANIMATION -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <!-- Scroll -->
+    <script src="https://cdn.jsdelivr.net/npm/smooth-scroll@16.1.3/dist/smooth-scroll.polyfills.min.js"></script>
+    <!-- loader JS -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+
+    
+</head>
+<body>
+    <!-- loader start -->
+    <div class="loader"></div>
+    <!-- loader end -->
+     <!-- load start -->
+    <script type="text/javascript">
+        $(window).load(function() {
+        $(".loader").fadeOut("1000"); })
+    </script>
+    <!-- load end -->
+    <!-- main page start -->
+    <div class="main-page" id="home_page">
+        <header>
+            <!-- navbar -->
+            <div class="main-page-navbar">
+                <ul>
+                    <li><a href="#home_page">Home</a></li>
+                    <li><a href="#watch_gameplay">Watch</a></li>
+                    <li><a href="#Charecters">Character</a></li>
+                    <li><a href="./page/LoginEl.html">Login</a></li>
+                    <li><a href="#Buy">Shop</a></li>
+                    <li><a href="#pageAbout">About</a></li>
+                </ul>
+            </div>
+        </header>
+            <!-- navbar-phone -->
+        <header class="header-nav-two">
+            <div class="main-page-navbar">
+                <button onclick="myFunction()"><i class="fa fa-bars" aria-hidden="true"></i></button>
+                <ul id="myDIV">
+                    <li><a href="#home_page">Home</a></li>
+                    <li><a href="#watch_gameplay">Watch</a></li>
+                    <li><a href="#Charecters">Character</a></li>
+                    <li><a href="./page/LoginEl.html">Login</a></li>
+                    <li><a href="#Buy">Shop</a></li>
+                    <li><a href="#pageAbout">About</a></li>
+                    
+                </ul>
+            </div>
+        </header>
+        
+        <!-- header -->
+        <div class="main-page-h">
+            <h1 data-aos="slide-up" data-aos-duration="3000" data-aos-easing="linear">MatureRing</h1>
+        </div>
+        <!-- game audio in main page -->
+        <audio autoplay loop>
+            <source src="asset/audio/j.mp3" type="audio/mp3">
+        </audio>
+    </div>
+    <!-- main page end -->
+    <!-- charachter page start -->
+    <div class="charachter-page" id="Charecters">
+        <!-- header -->
+        <div class="char-para" data-aos="zoom-in-up" data-aos-duration="1000">
+            <h2>Character</h2>
+        </div>
+        <!-- under header -->
+        <div class="under-para">        
+            <img src="./asset/image/charachter-h-pic.png" alt="under para" loading="lazy">
+        </div>
+        <!-- characters images -->
+        <div class="char-image">
+            <div class="char-part1" >
+                <div class="char-image1"><a href="#"><img src="./asset/image/char/bch1.png" alt="character1" data-aos="fade-right" data-aos-duration="2000" data-aos-anchor-placement="top-center" data-aos-easing="linear" loading="lazy"></a></div>
+                <div class="char-image2"><a href="#"><img src="./asset/image/char/bch2.png" alt="character2" data-aos="fade-left" data-aos-duration="2000" data-aos-anchor-placement="top-center" data-aos-easing="linear" loading="lazy"></a></div>    
+            </div>
+            <div class="char-part2">
+                <div class="char-image3"><a href="#"><img src="./asset/image/char/bch3.png" alt="character3" data-aos="fade-right"  data-aos-duration="2000" data-aos-anchor-placement="top-center" data-aos-easing="linear" loading="lazy"></a></div>
+                <div class="char-image4"><a href="#"><img src="./asset/image/char/bch4.png" alt="character4" data-aos="fade-left"  data-aos-duration="2000" data-aos-anchor-placement="top-center" data-aos-easing="linear" loading="lazy"></a></div>
+            </div>
+            <div class="char-part3">
+                <div class="char-image5"><a href="#"><img src="./asset/image/char/bch5.png" alt="character5" data-aos="fade-right"  data-aos-duration="2000"  data-aos-anchor-placement="top-center" data-aos-easing="linear" loading="lazy"></a></div>
+                <div class="char-image6"><a href="#"><img src="./asset/image/char/bch6.png" alt="character6" data-aos="fade-left"  data-aos-duration="2000" data-aos-anchor-placement="top-center" data-aos-easing="linear" loading="lazy"></a></div>
+            </div>
+            
+        </div>
+    </div>
+    <!-- charachter page end -->
+    <!-- watch page start -->
+    <div class="watch-page" id="watch_gameplay">
+        <div class="video">
+            <video controls  >
+                <source src="asset/video/gameplay.mp4">
+            </video>
+        </div>
+    </div>
+    <!-- watch page end -->
+    <!-- Shop page start -->
+    <div class="shop">
+        <div class="head-shop" id="Buy">
+            <h3  data-aos="slide-up" data-aos-duration="1000">Shop</h3>
+        </div>
+        <div class="under-head-shop">
+            <img src="./asset/image/charachter-h-pic.png" alt="under para" loading="lazy">
+        </div>
+        <div class="shop-center">
+            <div class="sh-center-img">
+                <img src="asset/image/shop/shop-pc.png" alt="shop-page-pic"  data-aos="fade-left" data-aos-anchor-placement="top-bottom" data-aos-easing="linear" data-aos-duration="2000" loading="lazy">
+                <img src="asset/image/shop/shop-ps.png" alt="shop-page-pic"  data-aos="zoom-in-up" data-aos-anchor-placement="top-bottom"  data-aos-easing="linear" data-aos-duration="2000" loading="lazy">
+                <img src="asset/image/shop/shop-xbox.png" alt="shop-page-pic"  data-aos="fade-right" data-aos-anchor-placement="top-bottom"  data-aos-easing="linear" data-aos-duration="2000" loading="lazy">
+            </div>
+        </div>
+    </div>
+    <!-- Shop page end -->
+    <!-- about page start -->
+    <div class="about-page" id="pageAbout">
+        <footer>
+            <div class="number">
+                <i title="344" style="color: #eeba30;" class="fa fa-phone" aria-hidden="true"  data-aos="zoom-in-up" data-aos-duration="1400"></i>
+                <p style="color: snow;">+123468090</p>
+            </div>
+            <div class="address">
+                <i style="color: #eeba30;" class="fa fa-address-book" aria-hidden="true"  data-aos="zoom-in-up"    data-aos-duration="1400"></i>
+                <address style="color: snow;">Lorem ipsum dolor sit amet.</address></div>
+            <div class="email">
+                <i style="color: #eeba30;" class="fa fa-envelope" aria-hidden="true"  data-aos="zoom-in-up"   data-aos-duration="1400"></i>
+                <p style="color: snow;">Loremipsumdolor@gmail.com</p>
+            </div>
+            <div class="instagram">
+                <i style="color: #eeba30;" class="fa fa-instagram" aria-hidden="true"></i>
+                <p style="color: snow;" >@Mature_ring</p>
+            </div>
+        </footer>
+    </div>
+    <!-- about page end -->
+<!-- AOS JS START -->
+<!-- scroll start -->
+<script>
+    AOS.init();
+    const scroll = new SmoothScroll('a[href*="#"]', {
+      speed: 2000,
+      speedAsDuration: true
+    });
+</script>
+<!-- scroll and AOS end -->
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <!-- AOS ANIMATION -->
+        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <!-- loader JS -->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+        $(".loader").fadeOut("1000"); })
+    </script>
+    <!-- shortcut icon -->
+    <link rel="shortcut icon" href="../asset/icone/icon.png">
+    <!-- link to css -->
+    <link rel="stylesheet" href="../page/CSS/Log.css">
+</head>
+<body>
+    <!-- Login start -->
+    <div class="log">
+        <!-- login header -->
+        <div class="header"><h1 data-aos="zoom-out-up" data-aos-duration="1000">Login</h1></div>
+        <div class="under-header"><img src="../asset/image/charachter-h-pic.png" alt="under-header-pic"></div>
+        <!-- username -->
+        <div class="userName">
+            <div class="name">
+                <div class="pic">
+                    <img src="../asset/image/shop/user-img.png" alt="shield">
+                </div>
+                <input type="text" placeholder="Username">
+            </div>
+        </div>
+        <!-- password -->
+        <div class="Password">
+            <div class="pass">
+                <div class="pic">
+                    <img src="../asset/image/shop/user-img.png" alt="arrow">
+                </div>
+                <input type="password" placeholder="Password">
+            </div>
+        </div>
+        <div class="log-button">
+            <a href="#">LogIn</a>
+        </div>
+        <div class="forget">
+            <a href="#">Forgot Password</a>
+        </div>
+        <div class="SignIn">
+            <a href="#">create an account</a>
+        </div>
+    </div>
+    <!-- Login end -->
+<!-- AOS JS START -->
+<script>
+    AOS.init();
+</script>
+<!-- AOS JS END -->
+</body>
+</html>
