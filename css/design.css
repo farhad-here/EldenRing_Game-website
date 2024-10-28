@@ -29,7 +29,7 @@ html{
     scrollbar-width: none;
 }
 /* loader start */
-.loader {
+/* .loader {
     position : fixed;
     z-index: 9999;
     background : url('../asset/icone/PlayStation messages logo.gif') 50% 50% no-repeat;
@@ -38,7 +38,7 @@ html{
     height : 100%;
     width : 100%;
     cursor : wait;
-}
+} */
 /* loader end */
 
 /* for main page start*/
